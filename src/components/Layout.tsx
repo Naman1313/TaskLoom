@@ -59,7 +59,7 @@ import {
                 <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-violet-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
                 <span className="text-white font-bold text-sm">T</span>
                 </div>
-                <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">TaskFlow</span>
+                <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">TaskLoom</span>
             </div>
             <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-slate-500 hover:text-slate-700 dark:text-slate-400">
                 <X className="w-5 h-5" />

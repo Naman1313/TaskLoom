@@ -45,7 +45,7 @@ export default function AuthPage() {
                 <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
                 <span className="text-white font-bold text-lg">T</span>
                 </div>
-                <span className="text-white font-bold text-2xl tracking-tight">TaskFlow</span>
+                <span className="text-white font-bold text-2xl tracking-tight">TaskLoom</span>
             </div>
             <p className="text-blue-100 text-sm mt-1">Collaborative Project Management</p>
             </div>
@@ -80,7 +80,7 @@ export default function AuthPage() {
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-violet-600 rounded-xl flex items-center justify-center">
                 <span className="text-white font-bold text-lg">T</span>
                 </div>
-                <span className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">TaskFlow</span>
+                <span className="font-bold text-2xl tracking-tight text-slate-900 dark:text-white">TaskLoom</span>
             </div>
 
             <div className="mb-8">
@@ -135,7 +135,7 @@ export default function AuthPage() {
                 {isLogin && (
                     <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-xl p-3.5 space-y-1.5">
                     <p className="text-blue-700 dark:text-blue-300 text-xs font-medium flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5" /> Quick access: use any email to sign in</p>
-                    <p className="text-blue-600/70 dark:text-blue-400/70 text-xs">Try: alex@taskflow.io for a pre-loaded experience</p>
+                    <p className="text-blue-600/70 dark:text-blue-400/70 text-xs">Try: alex@TaskLoom.io for a pre-loaded experience</p>
                     </div>
                 )}
                 </motion.form>
