@@ -56,9 +56,11 @@ import {
         <aside className={`fixed lg:sticky top-0 left-0 z-50 h-screen w-[260px] bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 flex flex-col transition-transform duration-300 lg:translate-x-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
             <div className="p-5 flex items-center justify-between">
             <div className="flex items-center gap-2.5">
-                <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-violet-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
-                <span className="text-white font-bold text-sm">T</span>
-                </div>
+                <img
+                    src="src/assets/logo.png"  
+                    alt="TaskLoom Logo"
+                    className="w-9 h-9 object-contain rounded-md"
+                />
                 <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">TaskLoom</span>
             </div>
             <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-slate-500 hover:text-slate-700 dark:text-slate-400">
